@@ -1,0 +1,640 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipbook Logika Matematika Kelompok 2</title>    
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script src="source/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="source/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
+	<script src="source/video.js" type="text/javascript"></script>
+		<link href="source/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
+		<link href="source/style-book.css" rel="stylesheet"/>
+		 
+  </head>
+  <body>
+  <br><br><br><br><br>
+		<div class="book_wrapper">
+			<a  id="next_page_button"></a>
+			<a href="index.html" id="prev_page_button"></a>
+			 
+			<div id="mybook" style="display:none;">
+				<div class="b-load">
+
+					<div>
+						<p class="daftar-isi">DAFTAR ISI</p>
+						<p class="daftar-isi-juga">KATA PENGANTAR.........................................................................................................i</p>
+						<p class="daftar-isi-juga">DAFTAR ISI..........................................................................................................................ii</p>
+						<p class="daftar-isi-juga">MATERI 1 Relevansi Logika Matematika.........................................................................................................1</p>
+						<p class="daftar-isi-juga">MATERI 1I Konsep Logika Proposisi..............................................................................................................4</p>
+						<p class="daftar-isi-juga">MATERI 1II Tabel Kebenaran..........................................................................................................13</p>
+						<p class="daftar-isi-juga">MATERI 1V Menetukan nilai kebenaran dengan tabel kebenaran ...............................................................................................................................17</p>
+						<p class="daftar-isi-juga">MATERI V Operasi Penyederhanaan Menggunakan Hukum Logika..................................................................................................................20</p>
+						<p class="daftar-isi-juga">Video Pembelajaran....................................................................................................29</p>
+						<p class="daftar-isi-juga">DAFTAR PUSTAKA.............................................................................................................iii</p>
+					</div>
+					
+					<div>
+						<p class="daftar-isi"> KATA PENGANTAR</p>
+						<br>
+						<p>Puji syukur kehadirat Tuhan Yang Maha Esa atas segala rahmat-Nya sehingga kami dapat menyelesaikan flipbook ini yang membahas mengenai materi logika matematika.
+							Kami kelompok 2 mengucapkan terimakasih kepada Dosen Logika Matematika yang telah membimbing dan memberikan pamahaman kepada kami untuk membuat filpbook sederhana ini yang berguna bagi kami.
+							Kami sadar dalam flipbook ini masih jauh dari kata sempurna dikarenakan terbatasnya 
+							pengalaman dan pengetahuan yang kami miliki. Oleh karena itu, kami mengharap kritik, saran 
+							serta masukan yang sifatnya membangun dari berbagai pihak. 
+							Kami berharap flipbook ini dapat menjadi referensi yang bermanfaat bagi para pembaca, 
+							terutama mereka yang memang memiliki minat pada bidang logika matematika.
+							</p>
+					</div>
+
+					<!-- Halaman 1 -->
+					
+					<div>
+						<img src="images/materi/AI.png" alt=""/>
+						<h1>Relevansi Logika Matematika</h1>
+								
+						<p>Logika matematika memiliki peran penting dalam berbagai disiplin ilmu komputer, termasuk kecerdasan buatan (AI), rekayasa perangkat lunak (software engineering), dan infrastruktur keamanan. Pemahaman mendalam tentang logika matematika adalah kunci untuk membangun sistem yang efisien, aman, dan dapat diandalkan di ketiga bidang ini. Berikut adalah penjelasan singkat tentang peran logika matematika dalam masing-masing area:</p>
+						</div>
+
+						<!-- Halaman 2 -->
+
+						<div>
+							<br>
+							<p>
+							1. Kecerdasan Buatan (AI)
+							 Logika Proposisional dan Predikat digunakan untuk representasi pengetahuan dan inferensi dalam sistem berbasis aturan.
+							 Algoritma Pembelajaran Mesin memanfaatkan konsep matematika seperti teori himpunan, aljabar linear, dan probabilitas, yang terkait dengan logika matematika.
+							  Penalaran Logis digunakan oleh sistem AI untuk menyelesaikan masalah dan menarik kesimpulan, baik secara deduktif, induktif, maupun abduktif.
+							</p>
+							<br>
+							<p>2. Rekayasa Perangkat Lunak (Software Engineering)
+							 Formal Verification memastikan perangkat lunak berfungsi sesuai dengan spesifikasi menggunakan logika formal untuk memverifikasi kode.
+							 Pemrograman dan Algoritma mengandalkan prinsip-prinsip logika dan teori graf dalam pengembangan algoritma untuk berbagai aplikasi.
+							  Sistem Tertanam memanfaatkan logika matematika untuk mendesain kontrol yang akurat dalam perangkat keras dan perangkat lunak.
+							</p>
+						</div>
+
+					
+					<!-- Halaman 3 -->
+					<div>
+						<br>
+						<p>
+							3. Infrastruktur Keamanan (Cybersecurity)
+							- Kriptografi menggunakan teori bilangan, aljabar, dan logika untuk mengenkripsi dan mendekripsi data dengan aman.
+							- Verifikasi dan Keamanan Protokol mengandalkan logika formal untuk memastikan protokol komunikasi, seperti SSL/TLS, aman dari serangan.
+							- Teori Keamanan menggunakan konsep logika untuk menganalisis kerentanannya dan model serangan dalam sistem.
+							- Analisis Kerentanannya memungkinkan deteksi titik lemah dalam perangkat lunak menggunakan teknik analisis dan pemrograman logika.
+							- Deteksi Intrusi memanfaatkan algoritma logika untuk mengidentifikasi pola mencurigakan dan memberikan peringatan.
+							<br>
+							Secara keseluruhan, logika matematika memberikan dasar bagi pengembangan teknologi canggih yang efisien dan aman dalam ketiga bidang tersebut.
+						</p>
+					</div>
+
+					<!-- Halaman 4 -->
+
+					<div>
+						<img src="images/materi/LogProsisi.png" alt="" />
+						<h1>Logika Proposisi</h1>
+						<p>Proposisi ialah kalimat deklaratif atau pernyataan yang memiliki hanya satu nilai kebenaran; benar saja atau salah saja, akan tetapi tidak kedua – duanya (benar sekaligus salah).
+						Pada umumnya bentuk proposisi adalah kalimat berita yang bisa ditentukan nilai kebenarannya (benar/salah).
+						Proposisi sederhana biasanya ditulis dengan huruf p,  q,  r,  s,  p1,  p2 …, g1, g2, …</p>
+						<p>Nilai kebenaran yang mungkin untuk suatu proposisi :</p> 
+						<p> -benar, dapat pula ditulis: B, T, true,  1</p> 
+						<p> -salah, dapat pula ditulis: S, F, false,  0</p>
+					</div>
+
+					<!-- Halaman 5 -->
+
+					<div>
+						<br>
+						<p>
+						Contoh Semua pernyataan di bawah ini adalah proposisi:</p>
+						<p>- 12 adalah bilangan genap</p> 
+						<p>- 1 + 1 = 2 - 16  akar kuadrat dari 16</p>
+						<p>- Pada tahun ini ada dinosaurus di kebun binatang Ragunan Jakarta</p> 
+						<p>- Hari ini adalah hari Rabu </p>
+						<p>- Untuk sembarang bilangan bulat n > 0, maka 2n adalah bilangan genap </p>
+						<br>
+						<p>Contoh Semua pernyataan di bawah ini bukan proposisi 
+						<p>- Jam berapa kereta api Argo Bromo tiba di stasiun Gambir?</p> 
+						<p>- Isilah gelas tersebut dengan air!</p>
+						<p>- x + 3 = 8 - x > 3</p>
+					</div>
+
+					<!-- Halaman 6 -->
+
+					<div>
+						<h1>Operator Logika</h1>
+						<p>
+						Operator logika adalah simbol-simbol yang digunakan dalam pemrograman untuk menghubungkan dua atau lebih ekspresi boolean (benar atau salah) dan menghasilkan boolean baru. proposisi sederhana yang juga disebut sebagai proposisi atom.
+						</p>
+						<p>
+						Gabungan dari bebrapa proposisi atom disebut proposisi majemuk
+						</p>
+						<p>
+						Untuk menggabungkan beberapa proposisi atom maka diperlukan operator (penghubung) logika. 
+						</p>
+						<p>
+						Ada dua jenis operator logika dasar, yaitu :
+						</p>
+						<p>
+						Operator uner (unary ): negasi (~ atau ¬);
+						</p>
+						<p>
+						Operator biner (binary ): konjungsi (Λ), disjungsi (V), disjungsi eksklusif/ exclusive-or (⊕), imlipkasi (→), biimplikasi (↔)
+						</p>
+					</div>
+
+						<!-- Halaman 7 -->
+
+					<div>
+						<h1>Negasi</h1>
+						<p>Negasi adalah kebalikan dari suatu proposisi. Jika proposisi awal (P) bernilai benar, maka pernyataan negasinya (~P) adalah salah.
+						Contoh negasi adalah:
+						</p>
+						<br>
+						<p>1.   P: Semua anak-anak suka bermain air.</p>
+						<p>~P: Ada anak-anak yang tidak suka bermain air.</p>
+						<br>
+						<p>2. ~P: Hari ini tidak hujan dan saya tidak membawa payung.</p>
+						<p>P: Hari ini hujan dan saya membawa payung</p>
+					</div>
+
+					<!-- Halaman 8 -->
+
+					<div>
+						<h1>Konjungsi</h1>
+						<p>Konjungsi
+							Konjungsi berlaku pada preposisi majemuk atau terdiri dari dua pernyataan (p dan q) yang dihubungkan oleh kata “dan”.
+							Dilansir dari Mathematics LibreTexts, konjungsi hanya bernilai benar jika kedua pernyataan benar. Dan akan bernilai salah jika salah satu pernyataan atau keduanya bernilai salah.
+							Contoh konjungsi adalah :</p>
+							<p>p: Ular adalah kelompok hewan reptil. (benar)</p>
+							<p>q: Buaya adalah kelompok hewan reptil. (benar)</p>
+							<p>pΛq: Yoghurt dan keju adalah produk olahan susu. (benar)</p>
+							<p>Pernyataan di atas adalah benar, karena p dan q bernilai benar. Jika salah satu pernyataan adalah salah, maka konjungsinya bernilai salah. Contohnya:</p>
+							<p>Ular adalah kelompok hewan reptil. (benar)</p>
+							<p>Ikan adalah kelompok hewan reptil. (salah)</p>
+							<p>Ular dan ikan adalah kelompok hewan reptil. (salah)</p>
+					</div>
+
+					<!-- Halaman 9 -->
+
+					<div>
+						<h1>Disjungsi</h1>
+						<p>Disjungsi adalah logika matematika pada proporsi majemuk yang menghubungkan kalimat dengan kata “atau” dan disimbolkan dengan “V”.</p>
+						<p>Dilansir dari Stanford Encyclopedia of Philosophy, pernyataan dalam disjungsi akan bernilai benar jika salah satu pernyataan benar dan akan salah jika dua-duanya bernilai salah.</p>
+						<p>Artinya, proporsi hanya bernilai salah jika kedua kalimatnya salah. Proporsi tetap benilai benar walaupun salah satu kalimatnya bernilai salah.</p>
+						<p>Contoh disjungsi adalah :</p>
+						<p>-	Acara tersebut akan digelar pada hari sabtu atau minggu.</p>
+						<p>-	Liburan kali ini dapat diisi dengan jalan-jalan keluar atau membaca buku di rumah.</p>
+						<p>-	Pelamar harus memiliki pendidikan magister atau pengalaman mengajar selama dua tahun.</p>
+					</div>
+
+					<!-- Halaman 10 -->
+
+					<div>
+						<h1>Exclusive Or</h1>
+						<p>
+						Apabila p dan q merupakan proposisi, maka p  q juga merupakan proposisi yang dinamakan sebagai disjungsi eksklusif/ exclusive or (xor ) dari p dan q.
+						</p>
+						<p>p ⊕ q dibaca p xor q</p>
+						<p>p ⊕ q bernilai benar (T) tepat ketika p dan q memiliki nilai kebenaran yang berbeda</p>
+						<p>Contoh exclusive or :</p>
+						<p>Maya dapat memilih jurusan teknik fisika atau teknik geologi”. Kalimat majemuk tersebut adalah disjungsi eksklusif karena Maya tidak bisa memilih kedua jurusan dan hanya bisa memilih satu jurusan.</p>
+					</div>
+
+					<!-- Halaman 11 -->
+
+					<div>
+						<h1>Implikasi</h1>
+						<p>
+						Implikasi ditandai dengan penggunakan kata hubung seperti jika dan maka dan disimbolkan dengan tanda “→”.Implikasi hanya bernilai salah jika pernyataan kedua (q) bernilai salah. Implikasi bernilai benar jika kedua pernyataan (p dan q) bernilai benar, p yang bernilai benar, atau dua-duanya bernilai salah.</p>
+						<br>
+						<p>Contoh implikasi adalah:</p>
+						<p>→	Jika hari ini hujan, saya akan membawa payung. (benar)</p>
+						<p>→	Jika hari ini sembuh, saya akan pergi ke sekolah. (benar)</p>
+						<p>→	Jika 3 adalah bilangan prima, maka 4 adalah bilangan prima. (salah)</p>
+					</div>
+
+					<!-- Halaman 12 -->
+
+					<div>
+						<h1>Biimplikasi</h1>
+						<p>
+							Biimplikasi adalah logika matematika ditandai dengan penggunakan kata “jika dan hanya jika”. Biimplikasi terjadi dalam proposisi majemuk dan disimbolkan dengan “↔”.Biimplikasi hanya bernilai benar jika dua pernyataan (p dan q), dua-duanya bernilai benar atau dua-duanya bernilai salah. Biimplikasi akan bernilai salah jika salah satu dari dua pernyataan bernilai salah. berikut adalah tabel kebenaran biimplikasi:</p>
+							<br>
+							<p>Contoh biimplikasi adalah:</p>
+							<p>-	Ibu akan memberikan hadiah sepeda jika dan hanya jika aku memenangkan lomba menulis cerpen.</p>
+							<p>-Aku akan memaafkanmu jika dan hanya jika kamu tidak mengulangi kesalahan itu lagi.</p>
+							
+					</div>
+					
+					<!-- Halaman 13 -->
+
+					<div>
+						<img src="images/materi/truth table.jpg" alt="" />
+						<h1>Tabel Kebenaran</h1>
+						<p>Negasi (-)
+						</p>
+						<img class="materi" src="images/materi/1.jpg">
+						
+					</div>
+					
+					<!-- Halaman 14 -->
+					
+					<div>
+						<p>Konjungsi (Λ)</p>
+						<img class="materi" src="images/materi/2.jpg">
+						<p>Disjungsi(V)</p>
+						<img class="materi" src="images/materi/4.jpg">
+					</div>
+					
+					<!-- Halaman 15 -->
+					
+					<div>
+						<p>XOR (⊕)</p>
+						<img class="materi" src="images/materi/3.jpg">
+						<p>Implikasi(→)</p>
+						<img class="materi" src="images/materi/5.jpg">
+					</div>
+					
+					<!-- Halaman 16 -->
+					
+					<div>
+						<p>Biimplikasi(↔)</p>
+						<img class="materi" src="images/materi/6.jpg">
+					</div>
+															
+					<!-- Halaman 17 -->
+					<div>
+						<h1>Menentukan Nilai Kebenaran Suatu Kalimat Dengan Menggunakan Tabel Kebenaran</h1>
+						<p>Kalimat nya yaitu : </p>
+						<p>"Jika hari ini hujan atau jalanan macet, maka kita tidak pergi ke taman.” </p>
+						<p>Langkah awal, mari kita tentukan proposisi yang ada pada kalimat tersebut </p>
+						<p>- p : “Hari ini hujan”</p>
+						<p>- q : “Jalanan macet”</p>
+						<p>- r : “Kita pergi ke taman”</p>
+						<p>Selanjutnya bentuk suatu kalimat proposisi dengan menambahkan operator logika yang sesuai dengan kalimat awal</p>
+						<p>* p ∨ q :</p>
+						<p>- “Hari ini hujan atau jalanan macet”</p>
+					</div>
+					
+					<!-- Halaman 18 -->
+					
+					<div>
+						<p> Pada kalimat proposisi ini digunakan operator disjungsi yang bermakna “atau”.</p>
+						<p> Dengan menggunakan operator disjungsi menunjukkan bahwa apabila salah satu dari proposisi bernilai benar maka kalimat tersebut juga bernilai benar.</p>
+						<p> * ¬ r :</p>
+						<p> “Kita tidak pergi ke taman”</p>
+    				<p> Pada proposisi ini digunakan operator negasi yang bermakna kebalikan dari kalimat asli.</p>
+    				<p> Kalimat asli yang bernilai benar jika dinegasikan akan bernilai salah.</p>
+						<p>* ( p ∨ q )→¬ r :</p>
+						<p> "Jika hari ini hujan atau jalanan macet, maka kita tidak pergi ke taman.”</p>
+						<p> Pada kalimat proposisi ini proposisi sebelumnya digabungkan menggunakan implikasi yang bermakna sebab akibat.</p>
+						<p> Biasanya ditulis dalam bentuk kalimat sebagai “Jika…maka…”.</p>
+					</div>
+					
+					<!-- Halaman 19 -->
+					
+					<div>
+						<p>Karena kalimat proposisi telah kita ketahui, langsung saja kita buat tabel kebenaran untuk kalimat tersebut </p>
+						<img src="images/materi/tabel kebenaran materi 4.jpg">
+						<p>Sedikit penjelasan dari tabel kebenaran tersebut:</p>
+						<p>Kolom p ∨ q: Dengan operator disjungsi bernilai benar (T) jika salah satu atau kedua proposisi p dan q bernilai benar (T).</p>
+						<p>Kolom ¬ r: Dengan operator negasi apabila r bernilai benar (T), maka ¬r akan bernilai salah (F), dan sebaliknya.</p>
+						<p>Kolom ( p ∨ q )→¬ r : Dengan operator Implikasi proposisi hanya akan bernilai salah (F) jika p ∨ q bernilai benar (T) dan ¬ r bernilai salah (F).</p>
+					</div>
+
+					<!-- Halaman 20 -->
+
+					<div>
+						<br>
+						<h1>Operasi Penyederhanaan Menggunakan Hukum Logika</h1>
+						<p>Nah, tadi kita sempat nihh nyinggung soal hukum logika. Teman-teman masih pada ingat kahh ? </p>
+						<br>
+						<p>Tenang aja, mimin bantu ingetin lagi kok. Teman-teman bisa lihat tabel dihalaman sebelah yaa! </p>
+					</div>
+					
+					<!-- Halaman 21 -->
+					
+					<div>
+						<br>
+						<br>
+						<br>
+						<img class="materi5" src="images/materi/Materi 5.png">
+					</div>
+					<!-- Halaman 22 -->
+					
+					<div>
+						<p>Nahhh, untuk penjelasan lebih lanjut temen-temen bisa lihat dibawah ini yaa</p>
+						<br>
+						<p>•	Hukum indentitas</p>
+						<p>Hukum Identitas dalam logika menyatakan bahwa operasi dengan identitas suatu logika tidak mengubah nilai pernyataan tersebut . Identitas ini berupa True (T) untuk operasi OR dan False (F) untuk operasi AND .</p>
+						<p>Contohnya : Jika A adalah sebuah apel, maka A akan selalu menjadi sebuah apel. (A = A)</p>
+						<br>
+						<p>•	Hukum null/dominansi</p>
+						<p>Hukum ini menyatakan bahwa operasi dengan tautologi (True) atau kontradiksi (False) menghasilkan hasil tetap.</p> 
+						<p>Contohnya : A atau benar (1) selalu bernilai benar (1). (A ∨ 1 = 1)</p>
+            <p>A dan salah (0) selalu bernilai salah (0). (A ∧ 0 = 0)</p>
+
+					</div>
+
+					<!-- Halaman 23 -->
+
+					<div>
+						<p>•	Hukum negasi</p>
+						<p>Hukum ini menyatakan bahwa negasi dari suatu pernyataan yang dinegasikan akan kembali ke pernyataan asalnya.</p> 
+						<p>Contoh :Negasi dari "Hari ini hujan" adalah "Hari ini tidak hujan".</p>
+ 	  				<p>Negasi dari benar (1) adalah salah (0). ~(1) = 0</p>
+						<br>
+						<p>•	Hukum idempoten</p>
+						<p>Hukum ini menyatakan bahwa pengoperasian dengan dirinya sendiri tidak mengubah nilai.</p>
+						<p>Contoh : A dan A selalu sama dengan A. (A ∧ A = A)</p>
+          	<p>A atau A selalu sama dengan A. (A ∨ A = A)</p>
+						<br>
+						<p>•	Hukum involusi/negasi ganda</p>
+						<p>Hukum ini menyatakan bahwa negasi ganda akan kembali ke pernyataan awal.</p>
+						<p>Contoh : Negasi dari negasi A adalah A. ~(~A) = A</p>
+					</div>
+
+					<!-- Halaman 24 -->
+
+					<div>
+						<p>•	Hukum penyerapan/arbsorpsi</p>
+						<p>Hukum ini menyatakan bahwa operasi yang melibatkan suatu pernyataan dan operasi di mana pernyataan itu sudah ada, hasilnya akan menjadi pernyataan awal.</p>
+						<p>Contoh : A dan (A atau B) selalu sama dengan A. (A ∧ (A ∨ B) = A)</p>
+            <p>A atau (A dan B) selalu sama dengan A. (A ∨ (A ∧ B) = A)</p>
+						<br>
+						<p>•	Hukum komutatif</p>
+						<p>Hukum ini menyatakan bahwa urutan operan dalam operasi logika tidak mempengaruhi hasil.</p>
+						<p>Contoh : A dan B sama dengan B dan A. (A ∧ B = B ∧ A)</p>
+            <p>A atau B sama dengan B atau A. (A ∨ B = B ∨ A)</p>
+						<br>
+					</div>
+
+					<!-- Halaman 25 -->
+
+					<div>
+						<p>•	Hukum asosiatif</p>
+						<p>Hukum ini menyatakan bahwa kelompok operan dalam operasi logika tidak mempengaruhi hasilnya.</p>
+						<p>Contoh : (A dan B) dan C sama dengan A dan (B dan C). ((A ∧ B) ∧ C = A ∧ (B ∧ C))</p>
+						<p>(A atau B) atau C sama dengan A atau (B atau C). ((A ∨ B) ∨ C = A ∨ (B ∨ C))</p>
+						<br>
+						<p>•	Hukum distributif</p>
+						<p>Hukum ini menyatakan bahwa operasi logika dapat didistribusikan seperti aljabar.</p>
+						<p>Contoh : A dan (B atau C) sama dengan (A dan B) atau (A dan C). (A ∧ (B ∨ C) = (A ∧ B) ∨ (A ∧ C))</p>
+          	<p>A atau (B dan C) sama dengan (A atau B) dan (A atau C). (A ∨ (B ∧ C) = (A ∨ B) ∧ (A ∨ C))</p>
+						<br>
+					</div>
+
+					<!-- Halaman 26 -->
+
+					<div>
+						<br>
+						<p>•	Hukum de Morgan</p>
+						<p>Hukum ini menyatakan bahwa negasi dari kombinasi logika dapat dibalik dengan mengubah operasi AND ke OR (dan sebaliknya) serta menegasikan semua operandnya.</p>
+						<p>Contoh : Negasi dari (A dan B) sama dengan (negasi A) atau (negasi B). ~(A ∧ B) = ~A ∨ ~B</p>
+						<p>Negasi dari (A atau B) sama dengan (negasi A) dan (negasi B). ~(A ∨ B) = ~A ∧ ~B</p>
+					</div>
+					
+					<!-- Video -->
+
+					<div>
+						<video id="video1" height="480" width="360" controls>
+							<source src="source/images/video.mp4" type="video/mp4">
+						</video>
+					</div>
+					
+					
+					<!-- Halaman Baru -->
+					
+					<div>
+						<br>
+						<br>
+						<br>
+						<h4 class="new-title">Logika Predikat dan Komponen-Komponen Sintaktik </h4> 
+					</div>
+					
+					<div>
+						<p>Persoalan tentang kuantor muncul pada variabel-variabel yang sering atau kadang-kadang muncul, atau bersifat umum serta yang tidak bersifat khusus, misalnya manusia, atau binatang.</p>
+						
+						
+						
+						<P>Contoh :</P>
+						
+						<p>1) Semua gajah mempunyai belalai</p>
+						
+						<p>2) Beberapa mahasiswa mengambil matakuliah logika matematika</p>
+						
+						<p>3) Setiap mahasiswa harus belajar dari buku teks</p>	
+						
+						<p>4) Ada penduduk kota jogjakarta yang terkena flu burung</p>
+						
+						<P>Semua pernyataan di atas mengindikasikan seberapa sering pernyataan-pernyataan tersebut bernilai benar. Untuk memperlihatkan hal tersebut, pada umumnya menggunakan kuantor-kuantor (quantifiers), sedangkan proses pemberian kuantor disebut pengkuantoran (quantification).
+						</P>
+						
+						<h3>Kuantor Universal</h3>
+						<p>Definisi : jika A suatu ekspresi logika dan x adalah variabel, maka jika ingin menentukan bahwa A adalah bernilai benar untuk semua nilai yang dimungkinkan untuk x akan ditulis ( ∀x )A.</p>
+					</div>
+					
+					<div>
+						<p>Disini ( ∀x ) disebut kuantor universal dengan A adalah scope dari kuantor. Variabel x disebut terikat (bound) dengan kuantor. Simbol menggantikan kata “untuk semua”.</p>
+						<p>Kuantor dan bound variabel diperlakukan satu unit seperti perangkai unary atau negasi pada perangkai proposisi. Pada contoh 1. Poin 3) ditulis B(x), berarti “x harus belajar dari buku teks”. Kata “ setiap mahasiswa” mengindikasikan bernilai benar untuk semua x, sehingga penulisan lengkapnya adalah : </p>
+						<p>Contoh 2. (∀ x) B (x)</p> 
+						<p>Contoh diatas dibaca “Untuk semua x,x harus belajar dari buku teks”. X belum menunjukan mahasiswa, sehingga lebih lengkapnya ditulis</p>
+						<p>Contoh 3. (∀ x) M (x) → B (x)</p>
+						<p>Sehingga dibaca “Untuk semua x, jika x adalah mahasiswa, maka x harus belajar dari buku teks”.</p>
+						<p>Contoh 4. Semua mahasiswa harus rajin belajar.</p>
+						<p>Untuk membuat ekspresi logika kuantornya, dengan melakukan langkah-langkah berikut:
+						</p>
+					</div>
+					
+					<div>
+						
+						<p>1. Carilah scope dari kuantor universalnya, yaitu :</p>
+						<p>“jika x adalah mahasiswa, maka harus rajin belajar” ditulis mahasiswa(x) harus rajin belajar(x)</p>
+						<p>2. Berilah kuantor universal</p>
+						<p>(∀ x) (mahasiswa(x) -> harus rajin belajar(x))</p>
+						<p>3. Ubah menjadi fungsi</p>
+						<p>(∀ x) (M (x) → B (x))</p>
+						
+					</div>
+					
+					<div>
+						<h3>Kuantor Existential</h3>
+						<p>Kuantor universal tidak berlaku untuk pernyataan “Ada bilangan prima yang genap”. Notasinya dapat ditulis :</p>
+						<p>Contoh : (∃x) (P(x)Λ E (x))</p>
+						<p>Dibaca “ada x, x adalah bilangan prima dan x adalah genap”.</p>
+						<p>Definisi : jika A suatu ekspresi logika, dan x adalah variabel. Maka jika ingin menentukan bahwa A adalah bernilai benar untuk sekurang-kurangnya satu dari x, maka akan ditulis (∃x) A Disini (∃x)
+							disebut kuantor eksistensial, dengan A disebut scope dari kuantor. Variabel x disebut terikat (bound) dengan kuantor. Simbol ∃ mengganti kata “ada”, “beberapa”, atau “tidak semua”.</p>
+							<br>
+							
+							<p>Tahapan pengkuantoran eksistensial sama dengan pengkuantoran universal.</p>
+							<p>Pengkuantoran eksistensial dari suatu proposisi A(x) adalah ada elemen x pada universe of discourse A(x) bernilai benar.</p>
+						</div>
+						
+						<div>
+							<br>
+							<p>Pemberian nilai pada pengkuantoran universal dan eksistensial.</p>
+							<img src="images/materi/gambar-1.jpg">
+							
+							<h3>Mempredikatkan Objek</h3>
+							<p>Hal yang penting diperhatikan dalam penggunaan kuantor.</p>
+							<p>a) Jika pernyataan memakai kuantor universal (∀), maka digunakan perangkai implikasi (->),</p>
+							<p>       yaitu : “Jika semua … , maka … “.</p>
+							<p>b) Jika pernyataan memakai kuantor eksistensial (∃), maka digunakan perangkai konjungsi (Λ),</p>
+							<p>       yaitu “Ada … yang … dan …”.</p>
+						</div>
+						
+						<div>
+							<p>Contoh 5</p>
+							<img src="images/materi/gambar-2.jpg">
+							<p>Pada simbol predikat yang sama dapat dibedakan K1 dan K2 agar tidak terjadi salah penafsiran atau ambiguitas. 
+							</p>
+							<br>
+							<h3>Hubungan antar Kuantor</h3>
+							<p>Pada simbol predikat yang sama dapat dibedakan K1 dan K2 agar tidak terjadi salah penafsiran atau ambiguitas. </p>
+							
+						</div>
+						
+						<div>
+							<p>Contoh :  Semua orang tidak kaya raya</p>
+							<p>Ditulis (∀x) (0 (x) → ~K(x)) dibaca “untuk semua x, jika x adalah orang, maka x tidak kaya raya”.</p>
+							<p>Pernyataan tersebut tidak benar karena ada saja orang yang kaya raya. Lebih tepat bila dinyatakan bahwa :</p>
+							<p>-Tidak semua orang kaya raya</p>
+							<p>-Ditulis ~(∀x) ~(0(x) Λ ~K(x))</p>
+							<p>Jika pada logika proposisi ada hukum A → B ≡ ~ A V B ≡ ~ (A Λ B), maka jika dipakai simbol tersebut maka O(x) disamakan A, dan K(x) disamakan B.
+							</p>
+							<p>~(∀x)~(0(x) Λ~K(x))</p>
+							<p>Munculnya perangkai Λ dapat dikaitkan dengan situasi umum yang melibatkan kuantor eksistensial sehingga ~(∀x)~ diganti dengan (∃x),</p>
+							<p>sehingga diperoleh (∃x)(0(x) Λ~K(x))</p>
+							<p>Dibaca “ terdapat x , dan x adalah orang dan x tidak kaya raya”, atau dapat ditafsirkan “ tidak semua orang kaya raya.
+							</p>
+						</div>
+						
+						<div>
+							<h3>Mengubah Pernyataan ke Logika Predikat</h3>
+							<p>Logika predikat adalah cara untuk menyelesaikan argumen yang tidak dapat diselesaikan dengan logika proposisi.</p>
+							<p>Contoh 1</p>
+							<p>1. Semua mahasiswa pasti pandai</p>
+							<p>2. Badu seorang mahasiswa</p>
+							<p>3. Dengan demikian, Badu pasti pandai</p>
+						<p>Jika argumen diatas akan dibuktikan validitasnya dengan logika proposisi, dengan mengikuti prosedur logika proposisi dengan menentukan variabel-variabel proposisi.</p>
+						<p>A = Semua mahasiswa pasti pandai</p>
+						<p>B = Badu seorang mahasiswa</p>
+						<p>C = Badu pasti pandai</p>
+						<p>Selanjutnya akan menjadi :</p>
+						<p>A = premis 1 </p>
+						<p>B = premis 2 </p>
+						<p>C = kesimpulan </p>
+					</div>
+					
+					<div>
+						<p>Jadi dalam bentuk ekspresi logika akan menjadi (A Λ B) → C</p>
+						<p>Dengan bentuk ekspresi logika berikut tidak ada hukum logika proposisional yang dapat digunakan untuk membuktikan validitas argumen tersebut. Karena tidak ada yang dapat menghubungkan ketiga proposisi tersebut.</p>
+					</div>
+					
+					<div>
+						<video id="video2" height="480" width="360" controls>
+							<source src="source/images/Logika matematika.mp4" type="video/mp4">
+						</video>
+					</div>
+					
+					<div>
+						<h4>Scan Barcode dibawah untuk Kuis!</h4>
+						<img class="barcode" src="images/materi/barcode-11.png">
+					</div>
+					
+					<div>
+						<p>Nahh, untuk lebih memahami materi 5 ini, mimin kasih teman-teman soal nihh,supaya temen-temen lebih mengerti</p>
+						<p>Soal 1:</p>
+						<p>Terapkan hukum distributif pada pernyataan berikut:</p>
+						<p>* "Jika Andi suka matematika atau fisika, maka dia akan masuk jurusan IPA."</p>
+						<br>
+						<p>Soal 2:</p>
+						<p>Sederhanakan pernyataan berikut menggunakan hukum-hukum logika yang sesuai:</p>
+						<p>* "~(A ∧ ~B) ∨ (A ∧ B)"</p>
+						<br>
+						<p>Soal 3:</p>
+						<p>Tunjukkan bahwa pernyataan berikut merupakan tautologi (selalu benar) dengan menggunakan hukum-hukum logika:</p>
+						<p>* (A ∨ ~A)</p>
+					</div>
+				
+					<!-- Halaman 28 -->
+				
+					<div>
+						<br>
+						<p>Soal 4:</p>
+						<p>Buatlah negasi dari pernyataan berikut dan sederhanakan menggunakan hukum De Morgan:</p>
+						<p>* "Semua siswa menyukai matematika dan fisika."</p>
+						<br>
+						<p>Soal 5:</p>
+						<p>Diberikan dua pernyataan:</p>
+						<p>* P: Hari ini hujan.</p>
+						<p>* Q: Saya membawa payung.</p>
+						<br>
+						 <p>Tuliskan dalam bentuk simbol logika pernyataan "Jika hari ini hujan, maka saya tidak membawa payung" dan negasinya. Kemudian, sederhanakan negasinya menggunakan hukum De Morgan.</p>
+					</div>
+					
+					<div>
+						<br>
+						<p class="daftar-isi">DAFTAR PUSTAKA</p>
+						<p>Daftar pustaka materi 1 flipbook : Pratama, A. (2024). Peran logika matematika dalam kecerdasan buatan, rekayasa perangkat lunak, dan infrastruktur keamanan. Jurnal Teknologi dan Komputer, 12(3), 245-260.</p>
+						<p>Hidayat, S., & Putra, M. (2023). Logika matematika untuk aplikasi kecerdasan buatan dan keamanan sistem komputer. Penerbit Teknologi Cerdas.</p>
+						<p>Wahyu, P. (2022). Penggunaan logika matematika dalam pengembangan perangkat lunak dan kriptografi. Jurnal Komputasi dan Keamanan, 18(1), 31-45.</p>
+						<p>Fahrurozi, Achmad. "Capture 5 - Logika Proposisi." http://achmad_fahrurozi.staff.gunadarma.ac.id/Downloads/files/67675/CAPTURE+5+-+Logika+Proposisi.pdf,</p> 
+					</div>
+				
+					<div>
+						<br>
+						<p>Kompas.com. "Logika Matematika: Pengertian dan Jenis-jenisnya." https://www.kompas.com/skola/read/2022/03/24/113458169/logika-matematika-pengertian-dan-jenis-jenisnya,</p> 
+						<p>Logika Informatika. (2016, November). Penyederhanaan logika dengan operator logika .https ://logikainformatikastmik .blogspo.com /2016 /11 /halaman-logika -dengan -oBahasa Indonesia: .html </p>
+						<p>P2K STEKOM. (n.d.). Tabel kebenaran. https://p2k.stekom.ac.id/ensiklopedia/Tabel_kebenaran</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+        <script type="text/javascript">
+			$(function() {
+				var $mybook 		= $('#mybook');
+				var $bttn_next		= $('#next_page_button');
+				var $bttn_prev		= $('#prev_page_button');
+				var $loading		= $('#loading');
+				var $mybook_images	= $mybook.find('img');
+				var cnt_images		= $mybook_images.length;
+				var loaded			= 0;
+				 
+				$mybook_images.each(function(){
+					var $img 	= $(this);
+					var source	= $img.attr('src');
+					$('<img/>').load(function(){
+						++loaded;
+						if(loaded == cnt_images){
+							$loading.hide();
+							$bttn_next.show();
+							$bttn_prev.show();
+							$mybook.show().booklet({
+								name:               null,                            //  
+								width:              800,                             //  
+								height:             500,                             //   
+								speed:              600,                             //  
+								direction:          'LTR',                           //  
+								                           //  
+								next:               $bttn_next,          			//  
+								prev:               $bttn_prev,          			//  
+								                       
+							});
+							Cufon.refresh();
+						}
+					}).attr('src',source);
+				});
+				
+			});
+        </script>
+
+    </body>
+</html>
